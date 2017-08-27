@@ -6,14 +6,54 @@
     margin-top : 250px;
     max-width: 400px;
     margin-left: auto;
+    text-align: center;
 }
 
 #githublink {
     margin-top : 10px;
     max-width: 400px;
     margin-left: auto;
+    text-align: center;
+    color: white;
+}
+
+#linkedinlink {
+    margin-top : 100px;
+    max-width: 400px;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+}
+
+a + p {
+    margin-top: 20px;
+}
+
+p + button {
+    margin-top:-20px;
 }
 
 ul + p {
     margin-top: 15px;
+}
+
+#p-intro {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#secondary_tech {
+    margin-top: 40px;
+}
+
+#main_tech {
+    margin-top: 40px;
 }

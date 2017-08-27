@@ -5,6 +5,18 @@ from flask import Flask, render_template, request, session, make_response
 app = Flask(__name__)
 app.secret_key = 'sebbybear'
 
+@app.route('/bootstrapped')
+def bootstrapped_template():
+    return render_template('bootstrapped.html')
+
+@app.route('/skillset')
+def skillset():
+    return render_template('skillset.html')
+
+@app.route('/machine-learning')
+def machine_learning():
+    return render_template('machine_learning.html')
+
 @app.route('/')
 def home_template():
     return render_template('home.html')
