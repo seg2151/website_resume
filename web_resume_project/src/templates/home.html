@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content %}
+<body background="{{ url_for('static', filename='face_photo.jpg') }}">
+    <div class="container">
+        <div class="container" id="intro">
+            <h5>Welcome! I created this site to showcase some of my skills, accomplishments, and newly found interest in web development in Python</h5>
+            <p>Feel free to take a look at the following:</p>
+            <a href="https://drive.google.com/open?id=0Bx60G-0PGzXpQTQwU2FpNUppb00" target="_blank"><button style="width:100px" type="Submit" class="btn btn-success">Resume</button></a>
+            <a href="https://drive.google.com/open?id=0Bx60G-0PGzXpaUt3U1BMXzIwUTA" target="_blank"><button style="width:100px" type="Submit" class="btn btn-primary">CV</button></a>
+            <a href="/projects"><button style="width:100px" type="Submit" class="btn btn-info">Projects</button></a>
+            <a href="link-to-resources"><button style="width:100px" type="Submit" class="btn btn-info">Resources</button></a>
+            <a href="/certificates"><button style="width:100px" type="Submit" class="btn btn-info">Certificates</button></a>
+        </div>
+        <div class="container" id="intro">
+            <a href="http://www.linkedin.com/in/seg2151" target="_blank">Click here for my Linkedin!</a>
+        </div>
+        <div class="container" id="githublink">
+            <a href="http://www.github.com/seg2151" target="_blank">Click here for my Github!</a>
+        </div>
+    </div>
+</body>
+
+{% endblock %}
